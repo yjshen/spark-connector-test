@@ -21,7 +21,7 @@
     <scala.version>2.11.12</scala.version>
     <scala.compat.version>2.11</scala.compat.version>
     <spark.version>2.4.3</spark.version>
-    <pulsar-spark-connector.version>2.4.0-SNAPSHOT</pulsar-spark-connector.version>
+    <pulsar-spark-connector.version>2.4.0</pulsar-spark-connector.version>
     <spec2.version>4.2.0</spec2.version>
     <maven-shade-plugin.version>3.1.0</maven-shade-plugin.version>
   </properties>
@@ -178,4 +178,16 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <id>central</id>
+      <layout>default</layout>
+      <url>https://repo1.maven.org/maven2</url>
+    </repository>
+    <repository>
+      <id>bintray-streamnative-maven</id>
+      <name>bintray</name>
+      <url>https://dl.bintray.com/streamnative/maven</url>
+    </repository>
+  </repositories>
 </project>
