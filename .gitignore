@@ -1,0 +1,13 @@
+# intellij
+.idea
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+**/target/*
+
+# shaded
+**/dependency-reduced-pom.xml
