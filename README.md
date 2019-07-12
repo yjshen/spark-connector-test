@@ -179,7 +179,7 @@ val ds = spark.readStream
     .option("admin.url", "http://localhost:8088")
     .option("topic", "topic-test")
     .load()
-ds.printSchema()  // 打印 topic-test 的 schema 信息，验证读取成功
+ds.printSchema()  // print schema information of `topic-test`, as a validation step.
 ```
 
 3. Output _ds_ to the console to start the job execution.
